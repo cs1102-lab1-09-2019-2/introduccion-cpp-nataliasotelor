@@ -1,7 +1,8 @@
-/*
- * Solamente incluir los header files que se requiren para hacer funcionar el programa
- */
-
+#include <iostream>
+#include <vector>
+#include <cmath>
+#include <unordered_set>
+using namespace std;
 int main()
 {
     std::vector<int> v = { 5, 2, 1, 3, 4, 2, 2, 4, 5, 5 };
