@@ -1,13 +1,13 @@
-
-
+#include <iostream>
+#include <vector>
+using namespace std;
 int main() {
-    vector<vector<int>> v{{1, 2}, {3, 4}, {5, 6}};
+    vector<vector<int>> v{{1, 2}"/n", {3, 4}"/n", {5, 6}"/n"};
     for (auto a : v) {
         for (auto i : a) {
-            // imprimir i
+            cout<<i>>;
         }
-        // salto de linea
-    }
+    return 0   
 }
 
 
