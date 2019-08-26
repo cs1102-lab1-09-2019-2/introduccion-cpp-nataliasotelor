@@ -1,11 +1,12 @@
 #include <iostream>
-using std::cout;
+using namespace std;
 
 int main() {
-    auto i = 0;
+    double i;
     // Mostrar los numeros del 0 al 4
-    while (i < ) {
-        cout<< i <<"\n";
+    for (int i=0; i<=4; i+=1)
+    {
+        cout<< i << endl;
 
     }
 }
